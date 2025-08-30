@@ -1,0 +1,60 @@
+@use "utils" as *;
+
+.header {
+  // background-color: rgba(100, 7, 65, 0.2);
+}
+
+.header-logo {
+  display: block;
+  margin-inline: auto;
+  margin-block-end: var(--sp-7);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: var(--sp-4);
+
+  overflow: hidden;
+}
+
+.hero-img-left {
+  align-self: start;
+  transform: translateX(calc(-1 * var(--sp-4)));
+}
+
+.hero-img-right {
+  justify-self: end;
+  align-self: end;
+  transform: translateX(var(--sp-4));
+}
+
+.hero-content {
+  align-self: center;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: var(--fs-1);
+  font-weight: var(--fw-bold);
+  color: var(--clr-grey-3);
+  line-height: 1;
+
+  margin-bottom: var(--sp-6);
+}
+
+.hero-description {
+  color: var(--clr-grey-2);
+  padding-inline: var(--sp-6);
+
+  margin-bottom: var(--sp-6);
+}
+
+.hero-btns {
+  margin-bottom: var(--sp-6);
+  // background-color: red;
+
+  display: flex;
+  justify-content: center;
+  gap: var(--sp-3);
+}

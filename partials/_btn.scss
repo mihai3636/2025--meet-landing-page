@@ -1,0 +1,20 @@
+.btn:link,
+.btn:visited {
+  color: var(--clr-white);
+  font-weight: var(--fw-bold);
+  padding-block: var(--sp-3);
+  padding-inline: var(--sp-5);
+  border-radius: var(--sp-6);
+}
+
+.btn--primary {
+  background-color: var(--clr-primary);
+}
+
+.btn--primary span {
+  color: var(--clr-primary-tint);
+}
+
+.btn--accent {
+  background-color: var(--clr-accent);
+}

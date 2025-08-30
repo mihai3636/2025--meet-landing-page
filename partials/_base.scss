@@ -5,4 +5,15 @@ body {
   font-size: var(--fs-default);
   font-weight: var(--fw-normal);
   line-height: 1.5;
+  min-height: 100vh;
+
+  border: 3px solid blue;
+}
+
+.container-page {
+  max-width: var(--desktop-container-width);
+  margin-inline: auto;
+  padding-top: var(--sp-7);
+
+  // border: 3px solid red;
 }
