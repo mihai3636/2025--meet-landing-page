@@ -37,7 +37,7 @@
   --sp-9: 4.5rem;
   --sp-10: 5rem;
   --sp-11: 7rem;
-  --desktop-container-width: 37.5rem;
+  --desktop-container-width: 90rem;
 }
 
 * {
@@ -62,6 +62,11 @@ button {
 img {
   max-width: 100%;
   display: block;
+}
+
+a:link {
+  display: inline-block;
+  text-decoration: none;
 }
 
 body {
