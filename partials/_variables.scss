@@ -14,9 +14,13 @@
 
 :root {
   --clr-primary: #4d96a9;
-  --clr-primary-tint: #8fe3f9;
+  --clr-primary-transparent: rgba(77, 151, 169, 0.8);
+  --clr-primary-tint: #71c0d4;
+  --clr-primary-tint-2: #8fe3f9;
+
   --clr-accent: #855fb1;
-  --clr-accent-tint: #d9b8ff;
+  --clr-accent-tint: #b18bdd;
+  --clr-accent-tint-2: #d9b8ff;
 
   --clr-white: #fafafa;
   --clr-grey-1: #d1d1df;
@@ -40,22 +44,6 @@
   --fs-5: #{toRem(16px)};
 
   // Maybe add some media queries here for the others? //TODO
-
-  // --fs-1: #{toRem(10px)};
-  // --fs-2: #{toRem(12px)};
-  // --fs-3: #{toRem(14px)};
-  // --fs-4: #{toRem(16px)};
-  // --fs-5: #{toRem(18px)};
-  // --fs-6: #{toRem(20px)};
-  // --fs-7: #{toRem(24px)};
-  // --fs-8: #{toRem(30px)};
-  // --fs-9: #{toRem(36px)};
-  // --fs-10: #{toRem(44px)};
-  // --fs-11: #{toRem(52px)};
-  // --fs-12: #{toRem(62px)};
-  // --fs-13: #{toRem(74px)};
-  // --fs-14: #{toRem(86px)};
-  // --fs-15: #{toRem(98px)};
 
   // SPACING
   --sp-1: #{toRem(4px)};

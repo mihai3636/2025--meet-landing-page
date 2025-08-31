@@ -1,0 +1,19 @@
+@use "./utils" as *;
+
+.footer {
+  padding: var(--sp-11) var(--sp-10);
+  // background-color: blue;
+  background-image: linear-gradient(
+      var(--clr-primary-transparent),
+      var(--clr-primary-transparent)
+    ),
+    url("../assets/desktop/image-footer.jpg"); /* image underneath */
+}
+
+.footer-container {
+  max-width: toRem(1120px);
+  margin-inline: auto;
+
+  display: flex;
+  justify-content: space-between;
+}

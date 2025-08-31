@@ -2,12 +2,13 @@
 
 .header {
   // background-color: rgba(100, 7, 65, 0.2);
+  margin-block-end: var(--sp-8);
 }
 
 .header-logo {
   display: block;
   margin-inline: auto;
-  margin-block-end: var(--sp-7);
+  margin-block-end: var(--sp-8);
 }
 
 .hero {
@@ -38,16 +39,17 @@
   font-size: var(--fs-1);
   font-weight: var(--fw-bold);
   color: var(--clr-grey-3);
-  line-height: 1;
+  line-height: 1.1;
 
-  margin-bottom: var(--sp-6);
+  margin-bottom: var(--sp-5);
 }
 
 .hero-description {
+  font-size: var(--fs-4);
   color: var(--clr-grey-2);
-  padding-inline: var(--sp-6);
+  padding-inline: var(--sp-4);
 
-  margin-bottom: var(--sp-6);
+  margin-bottom: var(--sp-5);
 }
 
 .hero-btns {

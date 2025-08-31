@@ -11,10 +11,22 @@
   background-color: var(--clr-primary);
 }
 
+.btn--primary:hover {
+  background-color: var(--clr-primary-tint);
+}
+
 .btn--primary span {
-  color: var(--clr-primary-tint);
+  color: var(--clr-primary-tint-2);
 }
 
 .btn--accent {
   background-color: var(--clr-accent);
+}
+
+.btn--accent:hover {
+  background-color: var(--clr-accent-tint);
+}
+
+.btn--accent span {
+  color: var(--clr-accent-tint-2);
 }

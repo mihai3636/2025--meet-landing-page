@@ -1,0 +1,56 @@
+@use "./utils" as *;
+
+.section.section--info {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+}
+
+.info-pictures {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 32px;
+
+  margin-block-end: var(--sp-8);
+}
+
+.img-example {
+  width: 256px;
+  height: 256px;
+  object-fit: cover;
+
+  border-radius: var(--sp-2);
+}
+
+.info-content {
+  max-width: toRem(544px);
+  margin-inline: auto;
+  text-align: center;
+}
+
+.title-label {
+  display: inline-block;
+  font-size: var(--fs-3);
+  line-height: 1.1;
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--sp-1);
+
+  color: var(--clr-primary);
+  text-transform: uppercase;
+
+  margin-block-end: var(--sp-3);
+}
+
+.title {
+  font-size: var(--fs-2);
+  line-height: 1.1;
+  font-weight: var(--fw-bold);
+  color: var(--clr-grey-3);
+
+  padding-inline: var(--sp-5);
+  margin-block-end: var(--sp-5);
+}
+
+.info-description {
+  font-size: var(--fs-4);
+}
