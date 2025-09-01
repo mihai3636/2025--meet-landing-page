@@ -1,13 +1,14 @@
 @use "./utils" as *;
 
 .footer {
+  color: var(--clr-white);
   padding: var(--sp-11) var(--sp-10);
   // background-color: blue;
   background-image: linear-gradient(
       var(--clr-primary-transparent),
       var(--clr-primary-transparent)
     ),
-    url("../assets/desktop/image-footer.jpg"); /* image underneath */
+    url("../assets/desktop/image-footer.jpg");
 }
 
 .footer-container {
@@ -16,4 +17,22 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: var(--fs-2);
+  font-weight: var(--fw-bold);
+  line-height: 1.1;
+
+  max-width: toRem(355px);
+}
+
+.footer-description {
+  max-width: toRem(355px);
+  font-size: var(--fs-4);
+}
+
+.footer .btn {
+  align-self: start;
 }

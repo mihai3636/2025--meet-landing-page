@@ -1,9 +1,7 @@
 @use "./utils" as *;
 
 .section.section--info {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
+  margin-block-end: toRem(44px);
 }
 
 .info-pictures {
