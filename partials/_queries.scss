@@ -1,1 +1,105 @@
 @use "./utils" as *;
+
+// Tablet
+@media (max-width: toRem(768px)) {
+  :root {
+    --fs-1: #{toRem(48px)};
+    --fs-2: #{toRem(36px)};
+    --fs-3: #{toRem(14px)};
+    --fs-4: #{toRem(16px)};
+    --fs-5: #{toRem(16px)};
+  }
+
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    row-gap: var(--sp-9);
+  }
+
+  .hero-img-left {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .hero-img-right {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .hero-content {
+    grid-column: 1 / -1;
+    justify-self: center;
+
+    max-width: toRem(448px);
+    margin-block-end: var(--sp-7);
+  }
+
+  .hero-title {
+    padding-inline: var(--sp-7);
+    margin-block-end: var(--sp-4);
+  }
+  .hero-description {
+    margin-block-end: var(--sp-4);
+  }
+  .hero-btns {
+    margin-block-end: 0;
+  }
+
+  .section {
+    padding-inline: var(--sp-5);
+  }
+
+  .info-pictures {
+    column-gap: var(--sp-4);
+    justify-items: center;
+  }
+
+  .img-example {
+    width: toRem(152px);
+    height: toRem(160px);
+  }
+
+  .info-description {
+    max-width: toRem(504px);
+  }
+
+  .section.section-info {
+    margin-block-end: toRem(36px);
+  }
+
+  .footer {
+    padding-inline: var(--sp-5);
+    padding-block: var(--sp-8);
+  }
+
+  .footer-container {
+    max-width: toRem(504px);
+    flex-direction: column;
+    gap: var(--sp-4);
+  }
+
+  .footer-title {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-description {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer .btn {
+    align-self: center;
+  }
+}
+
+// Phone
+@media (max-width: toRem(500px)) {
+  :root {
+    --fs-1: #{toRem(40px)};
+    --fs-2: #{toRem(32px)};
+    --fs-3: #{toRem(12px)};
+  }
+
+  .hero {
+    column-gap: 0;
+  }
+}

@@ -7,14 +7,14 @@
 .info-pictures {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 32px;
+  column-gap: var(--sp-5);
 
   margin-block-end: var(--sp-8);
 }
 
 .img-example {
-  width: 256px;
-  height: 256px;
+  width: toRem(256px);
+  height: toRem(256px);
   object-fit: cover;
 
   border-radius: var(--sp-2);
